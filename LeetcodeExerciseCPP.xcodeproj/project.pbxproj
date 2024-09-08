@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9C1942522C8CDB8500D7CB99 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C1942512C8CDB8500D7CB99 /* main.cpp */; };
+		9C1B74462C8CDC670032CFF1 /* MergeStringsAlternately.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B74442C8CDC670032CFF1 /* MergeStringsAlternately.cpp */; };
+		9C1B744A2C8D28DD0032CFF1 /* GreatestCommonDivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B74482C8D28DD0032CFF1 /* GreatestCommonDivisor.cpp */; };
+		9C1B744D2C8DCF750032CFF1 /* KidsWithCandies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B744B2C8DCF750032CFF1 /* KidsWithCandies.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		9C19424E2C8CDB8500D7CB99 /* LeetcodeExerciseCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetcodeExerciseCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1942512C8CDB8500D7CB99 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C1B74442C8CDC670032CFF1 /* MergeStringsAlternately.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeStringsAlternately.cpp; sourceTree = "<group>"; };
+		9C1B74452C8CDC670032CFF1 /* MergeStringsAlternately.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeStringsAlternately.hpp; sourceTree = "<group>"; };
+		9C1B74482C8D28DD0032CFF1 /* GreatestCommonDivisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreatestCommonDivisor.cpp; sourceTree = "<group>"; };
+		9C1B74492C8D28DD0032CFF1 /* GreatestCommonDivisor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GreatestCommonDivisor.hpp; sourceTree = "<group>"; };
+		9C1B744B2C8DCF750032CFF1 /* KidsWithCandies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KidsWithCandies.cpp; sourceTree = "<group>"; };
+		9C1B744C2C8DCF750032CFF1 /* KidsWithCandies.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KidsWithCandies.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +66,23 @@
 		9C1942502C8CDB8500D7CB99 /* LeetcodeExerciseCPP */ = {
 			isa = PBXGroup;
 			children = (
+				9C1B74472C8CDC740032CFF1 /* Answers */,
 				9C1942512C8CDB8500D7CB99 /* main.cpp */,
 			);
 			path = LeetcodeExerciseCPP;
+			sourceTree = "<group>";
+		};
+		9C1B74472C8CDC740032CFF1 /* Answers */ = {
+			isa = PBXGroup;
+			children = (
+				9C1B74442C8CDC670032CFF1 /* MergeStringsAlternately.cpp */,
+				9C1B74452C8CDC670032CFF1 /* MergeStringsAlternately.hpp */,
+				9C1B74482C8D28DD0032CFF1 /* GreatestCommonDivisor.cpp */,
+				9C1B74492C8D28DD0032CFF1 /* GreatestCommonDivisor.hpp */,
+				9C1B744B2C8DCF750032CFF1 /* KidsWithCandies.cpp */,
+				9C1B744C2C8DCF750032CFF1 /* KidsWithCandies.hpp */,
+			);
+			path = Answers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C1942522C8CDB8500D7CB99 /* main.cpp in Sources */,
+				9C1B744A2C8D28DD0032CFF1 /* GreatestCommonDivisor.cpp in Sources */,
+				9C1B744D2C8DCF750032CFF1 /* KidsWithCandies.cpp in Sources */,
+				9C1B74462C8CDC670032CFF1 /* MergeStringsAlternately.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
