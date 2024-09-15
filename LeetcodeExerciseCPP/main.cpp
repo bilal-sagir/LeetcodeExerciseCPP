@@ -9,6 +9,7 @@
 #include "MergeStringsAlternately.hpp"
 #include "GreatestCommonDivisor.hpp"
 #include "KidsWithCandies.hpp"
+#include "CanPlaceFlowers.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -29,5 +30,13 @@ int main(int argc, const char * argv[]) {
         cout << (val ? "true" : "false") << " ";
     }
     cout << endl;
+    
+    CanPlaceFlowers obj2;
+    vector<int> flowers = { 1,0,0,0,1 };
+    int n = 2;
+    bool res = obj2.canPlaceFlowers(flowers, n);
+    cout << res << endl;
+    
+    
     return 0;
 }
